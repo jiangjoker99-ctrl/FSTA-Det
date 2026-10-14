@@ -1,0 +1,3 @@
+include README.md LICENSE NOTICE requirements.txt
+recursive-include configs *.py
+recursive-include third_party *LICENSE*

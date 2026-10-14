@@ -1,0 +1,7 @@
+numpy<2
+matplotlib
+Pillow
+pycocotools
+six
+terminaltables
+yapf==0.40.1

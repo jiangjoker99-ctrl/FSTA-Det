@@ -1,0 +1,27 @@
+FSTA-Det
+
+This repository contains an MMDetection-based implementation of frequency
+enhancement and cross-window similarity aggregation for tiny object detection.
+
+MMDetection
+  Source: https://github.com/open-mmlab/mmdetection
+  Version: v2.23.0
+  Copyright: OpenMMLab contributors
+  License: Apache License 2.0, retained in LICENSE and source headers.
+  Local extensions: FSTA feature modules and detector, VisDrone adapter,
+  evaluator construction and empty-result handling, safe best-checkpoint
+  replacement, single-GPU evaluation rescaling, and MMCV compatibility range.
+
+CUST
+  Source: https://github.com/jwgdmkj/CUST
+  Reference commit: 037bfa9d912a44bfa4b3454276ce1db66150c7ac
+  Copyright (c) 2024 Jeongsoo Kim
+  License: MIT, retained in third_party/CUST_LICENSE.
+  Adapted concepts: hierarchical scale residuals and representative-based
+  token grouping, sorting, chunk attention and inverse-order restoration.
+
+SET
+  Source: https://github.com/HuixinSun/SET
+  Reference commit: 9208fbc4cfe571be4c15dccad8db1665cfdcb9d6
+  The FCOS experiment settings informed the initial training configurations.
+  SET's HBS/API detector implementation is not distributed in this repository.
